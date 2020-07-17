@@ -1,4 +1,4 @@
-# Pipeline projects: 
+### Pipeline projects: 
 Pipeline based projects are configured via JenkinsFile to define the application lifecycle as workflow.
 In short, Pipelines are Jenkins jobs enabled by the Pipeline (formerly called “workflow”) plugin and built with simple text scripts that use a Pipeline DSL (domain-specific language) based on the Groovy programming language.
 A quick tutorial on pipeline:
