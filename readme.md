@@ -67,3 +67,5 @@ pipeline {
 	}
 }
 ```
+
+source: https://www.jenkins.io/pipeline/getting-started-pipelines/
