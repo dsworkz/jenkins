@@ -4,10 +4,10 @@ In short, Pipelines are Jenkins jobs enabled by the Pipeline (formerly called â€
 A quick tutorial on pipeline:
 Modules includes:
 
-## Node:  
+#### Node:  
 In a simple context- node means a computer/machine which is connected as slave/runner. By enlisting executer Jenkins performs build on the node by performing the activity listed in steps.
 
-## Agent: 
+#### Agent: 
 to perform build/deploy activities on any delegated agent.
 ```
 pipeline {
@@ -15,7 +15,7 @@ pipeline {
 }
 ```
 
-## Stages:  
+#### Stages:  
 a stage is step to call the supported APIs. Pipeline syntax is comprised of stages. Each stage can have one or more build steps within it.
 ```
 pipeline {
@@ -25,7 +25,7 @@ pipeline {
 }
 ```
 
-## Stage:
+#### Stage:
 Jenkins graphically splits pipeline execution based on the defined stages and displays their duration and whether it was successful or not.
 ```
 pipeline {
@@ -53,7 +53,7 @@ pipeline {
 }
 ```
 
-## Step:  
+#### Step:  
 step is a single task that is part of sequence which tells Jenkins on what to do.
 ```
 pipeline {
